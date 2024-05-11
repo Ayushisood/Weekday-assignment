@@ -1,0 +1,63 @@
+
+
+.card-wrapper{
+ padding: 20px 20px 8px 20px;
+ border-radius: 20px;
+ width: 100%;
+ text-align: left;
+ box-shadow: 0 2px 4px 0 rgba(40, 39, 39, 0.2), 0 4px 12px 0 rgba(40, 39, 39, 0.2);
+
+ .header-container{
+   display: flex;
+   gap: 12px;
+   align-items: flex-start; 
+   margin-bottom: 16px;
+
+   .company-logo{
+    width: 56px;
+    height: 64px;
+   }
+ }
+
+ .job-description-container{
+    margin-bottom: 16px;
+
+    .about-company-text{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .about-us-text{
+        font-weight: bold;
+    }
+ }
+
+ .apply-button{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 12px;
+    background-color: #8DECB4;
+    cursor: pointer;
+
+    .apply-icon{
+        width: 24px;
+        height: 24px;
+    }
+    .apply-text{
+        font-weight: 600;
+    }
+ }
+
+ .light-text{
+    color: grey;
+    font-weight: 600;
+ }
+
+ .text-margin-bottom{
+    padding-bottom: 4px;
+ }
+};
