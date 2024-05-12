@@ -1,0 +1,14 @@
+
+.MuiAutocomplete-hasPopupIcon.css-1cale1y-MuiAutocomplete-root .MuiOutlinedInput-root
+{
+    padding-right: 10px !important;
+}
+
+.filter-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 56
+    px;
+}

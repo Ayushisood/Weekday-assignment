@@ -1,8 +1,11 @@
 .main-wrapper{
-  padding: 28px;
+  margin: 20px;
+  width: 100%;
 
   .job-card-container{
-    display: flex;
-    gap: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
   }
 }
